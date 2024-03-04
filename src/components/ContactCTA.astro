@@ -5,10 +5,20 @@ import Icon from './Icon.astro';
 
 <aside>
 	<h2>Interested in working together?</h2>
-	<CallToAction href="mailto:maxime.ferrier@ikmail.com">
-		Contact me !
-		<Icon icon="paper-plane-tilt" size="1.2em" />
-	</CallToAction>
+	<ul>
+		<li>
+			<CallToAction href="/assets/CV Maxime Feb 2024.pdf">
+				Download my CV !
+				<Icon icon="read-cv" size="1.2em" />
+			</CallToAction>
+		</li>
+		<li>
+			<CallToAction href="mailto:maxime.ferrier@ikmail.com">
+				Contact me !
+				<Icon icon="paper-plane-tilt" size="1.2em" />
+			</CallToAction>
+		</li>
+	</ul>
 </aside>
 
 <style>
@@ -42,5 +52,10 @@ import Icon from './Icon.astro';
 			font-size: var(--text-3xl);
 			text-align: left;
 		}
+	}
+
+	li {
+		list-style-type:none;
+		padding: 4px;
 	}
 </style>
