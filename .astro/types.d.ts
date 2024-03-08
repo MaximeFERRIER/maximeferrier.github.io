@@ -161,6 +161,13 @@ declare module 'astro:content' {
   collection: "work";
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
+"toldclub.md": {
+	id: "toldclub.md";
+  slug: "toldclub";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
 "webedia.md": {
 	id: "webedia.md";
   slug: "webedia";
